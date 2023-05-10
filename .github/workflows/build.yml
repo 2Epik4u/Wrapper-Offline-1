@@ -32,7 +32,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-          
+      - name: node modules
+        run: npm install
 
       - name: Build Electron
         run: npx electron-packager .
@@ -54,7 +55,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
-
+      - name: node modules
+        run: npm install
       - name: Build Electron
         run: npx electron-packager .
       - name: Publish Artifact
@@ -75,6 +77,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14
+      - name: node modules
+        run: npm install
           
 
       - name: Build Electron
