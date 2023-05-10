@@ -34,8 +34,8 @@
 		"electron-packager": "^15.5.1",
 		"js-base64": "^3.7.2",
 		"mocha": "^10.0.0",
-		"supertest": "^6.2.3"
-		"electron": "^11.5.0",
+		"supertest": "^6.2.3",
+		"electron": "^11.5.0"
 
 	},
 	"repository": {
